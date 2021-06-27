@@ -1,0 +1,21 @@
+.csv-parser {
+  font-family: sans-serif;
+  text-align: center;
+  border: 1px dashed;
+}
+
+.enriched-csv-contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.invalid-file {
+  color: red;
+  margin-top: 20px;
+}
+
+.file-upload-success {
+  color: green;
+  padding: 20px;
+}

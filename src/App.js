@@ -1,11 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-import CsvConverter from './components/CsvConverter';
+import React from "react";
+import "./App.css";
+import CsvParser from "./components/CsvParser/CsvParser";
 
 function App() {
   return (
     <div className="App">
-      <CsvConverter />
+      <CsvParser />
     </div>
   );
 }
